@@ -18,7 +18,7 @@ jobs:
   job2:
     runs-on: ubuntu-latest
     steps:
-     - uses: actions/checkout@v4  # it will clone the current repo on the ubuntu runner
+     - run: actions/checkout@v4  # it will clone the current repo on the ubuntu runner
   job3: 
     runs-on: ubuntu-latest
     steps:
